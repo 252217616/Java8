@@ -3,6 +3,7 @@ package com.lujj.java8.filter;
 import com.lujj.java8.bean.Apple;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
@@ -23,7 +24,14 @@ public class Client {
 
         //给苹果按重量排序
         result.sort((Apple a,Apple b)->a.getWeight()-b.getWeight());
-        System.out.println("r");
+        System.out.println(result.get(0).getWeight());
+        //给苹果按重量排序
+        result.sort(Comparator.comparing(Apple::getWeight));
+        System.out.println(result.get(0).getWeight());
+        //给苹果按重量排序
+        result.sort(Comparator.comparing(Apple::getWeight).reversed());//逆序
+        System.out.println(result.get(0).getWeight());
+
 
     }
 
