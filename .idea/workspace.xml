@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="529aa0ab-cc0d-411c-8f2f-9838d73aa146" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lujj/java8/Optional/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lujj/java8/bean/Trader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lujj/java8/bean/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/TraderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lujj/java8/boxed/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/CreateStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lujj/java8/stream/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lujj/java8/stream/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lujj/java8/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lujj/java8/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/TraderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/TraderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lujj/java8/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lujj/java8/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lujj/java8/stream/TraderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lujj/java8/stream/TraderTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,16 +36,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TraderTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TraderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/TraderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+            <state relative-caret-position="719">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2920#2921#0" expanded="true" />
-                <element signature="e#2976#2977#0" expanded="true" />
+                <element signature="e#2998#2999#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/boxed/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateStream.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/CreateStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -64,10 +102,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/bean/Apple.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/filter/ApplePredicate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/bean/Dish.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/filter/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/Client.java" />
@@ -75,6 +111,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/bean/Trader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/bean/Transaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/TraderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/boxed/Client.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/CreateStream.java" />
       </list>
     </option>
   </component>
@@ -120,8 +160,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-111" />
+    <option name="y" value="239" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -133,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,7 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -225,53 +266,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TraderTest">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lujj.java8.filter.Client" />
-      <module name="java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lujj.java8.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lujj.java8.stream.Client" />
-      <module name="java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lujj.java8.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lujj.java8.Optional.Client" />
-      <module name="java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lujj.java8.Optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lujj.java8.Client" />
-      <module name="java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lujj.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TraderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lujj.java8.stream.TraderTest" />
+  <component name="RunManager" selected="JUnit.CreateStream.斐波纳契元组序列2">
+    <configuration name="CreateStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lujj.java8.stream.CreateStream" />
       <module name="java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -283,6 +280,98 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CreateStream.斐波纳契元组序列" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lujj.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lujj.java8.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.lujj.java8.stream.CreateStream" />
+      <option name="METHOD_NAME" value="斐波纳契元组序列" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CreateStream.斐波纳契元组序列2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lujj.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lujj.java8.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.lujj.java8.stream.CreateStream" />
+      <option name="METHOD_NAME" value="斐波纳契元组序列2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CreateStream.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lujj.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lujj.java8.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.lujj.java8.stream.CreateStream" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CreateStream.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lujj.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lujj.java8.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.lujj.java8.stream.CreateStream" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -323,19 +412,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Client (1)" />
-      <item itemvalue="Application.Client (2)" />
-      <item itemvalue="Application.Client (3)" />
-      <item itemvalue="Application.TraderTest" />
+      <item itemvalue="Application.CreateStream" />
+      <item itemvalue="JUnit.CreateStream.test" />
+      <item itemvalue="JUnit.CreateStream.斐波纳契元组序列" />
+      <item itemvalue="JUnit.CreateStream.test2" />
+      <item itemvalue="JUnit.CreateStream.斐波纳契元组序列2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TraderTest" />
-        <item itemvalue="Application.Client (3)" />
-        <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="JUnit.CreateStream.斐波纳契元组序列2" />
+        <item itemvalue="JUnit.CreateStream.test2" />
+        <item itemvalue="JUnit.CreateStream.斐波纳契元组序列" />
+        <item itemvalue="JUnit.CreateStream.test" />
+        <item itemvalue="Application.CreateStream" />
       </list>
     </recent_temporary>
   </component>
@@ -353,14 +442,39 @@
       <workItem from="1539844227126" duration="6567000" />
       <workItem from="1539914093540" duration="17616000" />
       <workItem from="1540174299763" duration="15716000" />
+      <workItem from="1540261007629" duration="16497000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CreateStream_test - 2018.10.23 at 15h 16m 20s.xml">
+      <configuration name="CreateStream.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateStream_test - 2018.10.23 at 15h 16m 39s.xml">
+      <configuration name="CreateStream.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateStream_斐波纳契元组序列 - 2018.10.23 at 15h 29m 25s.xml">
+      <configuration name="CreateStream.斐波纳契元组序列" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateStream_斐波纳契元组序列 - 2018.10.23 at 15h 31m 14s.xml">
+      <configuration name="CreateStream.斐波纳契元组序列" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateStream_斐波纳契元组序列 - 2018.10.23 at 15h 32m 43s.xml">
+      <configuration name="CreateStream.斐波纳契元组序列" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateStream_test2 - 2018.10.23 at 15h 58m 49s.xml">
+      <configuration name="CreateStream.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateStream_斐波纳契元组序列2 - 2018.10.23 at 16h 20m 27s.xml">
+      <configuration name="CreateStream.斐波纳契元组序列2" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40296000" />
+    <option name="totallyTimeSpent" value="56793000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -371,19 +485,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33006537" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33006537" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -414,10 +528,22 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/TraderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2322">
+          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2920#2921#0" expanded="true" />
+            <element signature="e#2998#2999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -470,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/bean/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -495,17 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -538,12 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
-          <folding>
-            <element signature="e#4242#4243#0" expanded="true" />
-            <element signature="e#4278#4279#0" expanded="true" />
-            <element signature="e#8628#8629#0" expanded="true" />
-            <element signature="e#8680#8681#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,12 +721,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/TraderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="719">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2920#2921#0" expanded="true" />
-            <element signature="e#2976#2977#0" expanded="true" />
+            <element signature="e#2998#2999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/boxed/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lujj/java8/stream/CreateStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
           </folding>
         </state>
       </provider>

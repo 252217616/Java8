@@ -85,7 +85,9 @@ public class TraderTest {
      *所有交易中，最高的交易额是多少？
      */
     public static void seven(List<Transaction> list){
-        list.stream().map(Transaction::getValue).reduce(0,Integer::max);
+        Integer reduce = list.stream().map(Transaction::getValue).reduce(0, Integer::max);//暗含拆装箱成本
+        int sum = list.stream().mapToInt(Transaction::getValue).sum();//先转成基本类型的流
+
     }
 
     /**
