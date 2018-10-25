@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 
-public class Client {
+public class FilterClient {
 
     public static void main(String[] args) {
         //旧办法
